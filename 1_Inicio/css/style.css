@@ -5,11 +5,16 @@
 
 .section1 {
     color: var(--color-front);
+    font-family: 'Slabo 27px', serif;
 }
 
 .main {
     font-weight: bold;
 }
+.main::before {
+    content: '* ';
+}
+
 
 body>header {
     color: var(--color-back);
@@ -22,4 +27,14 @@ section:nth-child(3) h2 {
 
 section:nth-child(3) p:nth-of-type(2) {
     font-style: italic;
+}
+
+aside {
+    position: relative;
+    font-family: 'Lora', serif;
+}
+.icono {
+    position: absolute;
+    top: 0rem;
+    right: 3rem;
 }
