@@ -1,0 +1,25 @@
+:root {
+    --color-front: brown;
+    --color-back: bisque;
+}
+
+.section1 {
+    color: var(--color-front);
+}
+
+.main {
+    font-weight: bold;
+}
+
+body>header {
+    color: var(--color-back);
+    background-color: var(--color-front);
+}
+section:nth-child(3) h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green
+}
+
+section:nth-child(3) p:nth-of-type(2) {
+    font-style: italic;
+}
