@@ -11,5 +11,40 @@
     <header>
         <h1>Multimedia</h1>
     </header>
+    <section>
+        <picture>
+            <source media="(max-width: 300px)" srcset="./assets/iguana.300.jpg">
+            <source media="(max-width: 400px) " srcset="./assets/iguana.400.jpg">
+            <source media="(max-width: 500px" srcset="./assets/iguana.500.jpg">
+            <img src="./assets/iguana.jpg" alt="Iguana">
+        </picture>
+    </section>
+    <section>
+        <video controls>
+            <source src="./assets/Ghost_in_the_Shell_Opening.webm" type="video/webm">
+            <source src="./assets/Ghost_in_the_Shell_Opening.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section>
+        <div class="video-wrapper">
+            <!-- width="560" height="315"  -->
+            <iframe 
+            src="https://www.youtube.com/embed/wX5gL-sgr80" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>            
+        </div>
+    </section>
+    <section>
+    <img src="./assets/komodo.jpg" 
+        alt="Varano de comodo" 
+        sizes="(max-width: 300px) 300px, 
+            (max-width: 400px) 400px,
+            (max-width: 500px) 500px,
+            600px " 
+        srcset="./assets/komodo.300.jpg 300w,
+        ./assets/komodo.400.jpg 400w,
+        ./assets/komodo.500.jpg 500w,
+        ./assets/komodo.jpg 600w">
+    </section>
 </body>
 </html>

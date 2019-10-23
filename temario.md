@@ -14,7 +14,7 @@
 · Introducción
 · Adaptive Images
 · Picturefill
-· Imágenes Adaptativas en los CMS
+· Imágenes Adaptativas en los CDN
 · Vídeos Adaptativos
 
 ## TEXTO EN DISEÑO ADAPTATIVO ##
